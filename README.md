@@ -14,3 +14,4 @@ $ sudo make install
 
 
 ```
+After downloading the tarball from https://sourceforge.net/projects/ngspice/files/ to a local directory, unpack it using:
