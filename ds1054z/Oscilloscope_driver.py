@@ -64,18 +64,7 @@ def Readpreamble():    # Callback function for the "Position of axis" button
         print("Points = ",pnts)
         print("X-Origin = ",xorig)
         print("Y-Origin = ",yorig)
-          
-        redirect_console_output("data.txt")
-        
-        print(devName)
-        print()
-        print(e_textCh)        
-        print()
-        print("Points = ",pnts)
-        print()
-        print("X-Origin = ",xorig)
-        print()
-        print("Y-Origin = ",yorig)
+
        
 def hex_format(data):   # Convert data to hexadecimal format
     
@@ -84,7 +73,7 @@ def hex_format(data):   # Convert data to hexadecimal format
         formatted_data.append(f"0x{byte:02x}")
     return formatted_data
 
-def redirect_console_output(filename):    # This redirects the standard output to the file
+def redirect_console_output(filename):    # This redirects the standard output to the file 
     sys.stdout = open(filename, 'w')
 
 def waveforM():          # This fucntion gets the data and converts it to suitable format
